@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<section class="site-pro-header">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="site-pro-header-content">
+          <h1>
+            {{ .Title | safeHTML }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with .Site.Data.professionnelles }}
+  {{ if .enable }}
+<section class="site-pro" id="pro">
+  <div class="container">
+    <div class="row">
+      {{ range .testimonial_item }}
+      <div class="col-lg-4 col-md-10 mx-auto">
+        <div class="site-pro-item">
+          <div class="site-pro-item-thumb">
+            <a href="{{ .link | absURL }}">
+              <img src="{{ .thumb | absURL }}" alt="pro-thumb">
+            </a>
+          </div>
+          <div class="site-pro-item-content">
+            <a href="{{ .link | absURL }}">
+              <span>{{ .name }}</span>
+              <h3>{{ .company_position }}</h3>
+            </a>
+            <a href="{{ .link | absURL }}" class="read-more">Plus d'informations</a>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+  {{ end }}
+{{ end }}
+
+{{ end }}

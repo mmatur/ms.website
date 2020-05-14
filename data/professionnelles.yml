@@ -1,0 +1,28 @@
+enable  : true
+title   : "Les professionnelles"
+
+testimonial_item :
+  - thumb : "images/professionnelles/osteopathe.jpg"
+    name  : "Mathilde Laratte"
+    company_position: "Ostéopathe"
+    link: "les-professionnelles/osteopathe"
+
+  - thumb : "images/professionnelles/sage-femme.jpg"
+    name  : "Anne-Béatrice Lormet"
+    company_position: "Sage-Femme"
+    link: "les-professionnelles/sage-femme"
+
+  - thumb : "images/professionnelles/psychologue.jpg"
+    name  : "Audrey Bonny-Trompat & Cécile Choimet"
+    company_position: "Psychologues"
+    link: "les-professionnelles/psychologues"
+
+  - thumb : "images/professionnelles/orthophoniste.jpg"
+    name  : "Solen De Texier"
+    company_position: "Orthophoniste"
+    link: "les-professionnelles/orthophoniste"
+
+  - thumb : "images/professionnelles/psychomotricienne.jpg"
+    name  : "Claire Morandet"
+    company_position: "Psychomotricienne"
+    link: "les-professionnelles/psychomotricienne"

@@ -1,0 +1,59 @@
+baseURL       = "https://monplaisirsante.fr/"
+languageCode  = "fr-fr"
+title         = "Monplaisir Santé"
+theme         = "roxo"
+summarylength = 25
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Accueil"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "Les professionnelles"
+    url     = "les-professionnelles"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Actualités"
+    url     = "actualites"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Monplaisir Santé"
+  author = "Monplaisir Santé"
+  # Google Analitycs
+  googleAnalytics = "UA-168244674-1"
+
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Bienvenue au Cabinet Monplaisir Santé"
+    tagline               = "A la croisée des quartiers Monplaisir (Lyon 8ème) et Montchat (Lyon 3ème)"
+    primary_button        = "Les professionelles"
+    primary_button_url    = "les-professionnelles"
+    secondary_button      = "Contact"
+    secondary_button_url  = "contact"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Cabinet Monplaisir Santé"
+      address = "62, rue Saint Maximin"
+      city    = "69003 Lyon"
+      phone   = "04.82.98.29.15"
+      image   = "images/tcl.png"

@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <section class="site-actualites-header">
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2>{{ .Title }}</h2>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    {{range .Pages }}
+    <section class="site-actualites">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 site-actualites title">
+                <h4>{{ .Params.date.Day }} {{ index $.Site.Data.mois (printf "%d" .Params.date.Month) }} {{ .Params.date.Year }}</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 site-actualites details">
+                {{ .Content }}
+            </div>
+          </div>
+        </div>
+        <hr title="oiaze"/>
+    </section>
+    {{ end }}
+{{ end }}

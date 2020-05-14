@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+{{ range .Pages }}
+<h4>
+  <a href="#{{ replace .Title " " "_" }}">→ {{ .Title }}</a>
+</h4>
+{{ end }}
+
+<section class="site-blog details">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="site-blog-details">
+          <a href="../">→ {{ .CurrentSection.Page.Title }}</a>
+          <h2 class="blog-title">{{ .Title }}</h2>
+          {{ if .Params.image }}
+          <div class="blog-image">
+            <img class="feature-image" src="{{ .Params.image | absURL }}">
+          </div>
+          {{ end }}
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

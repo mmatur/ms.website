@@ -1,0 +1,152 @@
+[build]
+publish = "public"
+command = "hugo"
+
+[context.production.environment]
+HUGO_VERSION = "0.70.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+
+# Sage femme
+[[redirects]]
+  from = "/sage-femme-lyon-monplaisir/"
+  to = "/les-professionnelles/sage-femme/sage-femme/"
+  status = 301
+
+[[redirects]]
+  from = "/sage-femme-au-coeur-de-la-grossesse/"
+  to = "/les-professionnelles/sage-femme/femme-au-cours-de-la-grossesse/"
+  status = 301
+
+[[redirects]]
+  from = "/sage-femme-apres-la-naissance/"
+  to = "/les-professionnelles/sage-femme/apres-la-naissance/"
+  status = 301
+
+[[redirects]]
+  from = "/sage-femme-gynecologie/"
+  to = "/les-professionnelles/sage-femme/gynecologie/"
+  status = 301
+
+[[redirects]]
+  from = "/sage-femme-informations-pratiques/"
+  to = "/les-professionnelles/sage-femme/contact/"
+  status = 301
+
+# Psy
+[[redirects]]
+  from = "/psychologues-lyon-monplaisir/"
+  to = "/les-professionnelles/psychologues/accueil/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologue-perinatalite/"
+  to = "/les-professionnelles/psychologues/perinatalite/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologues-enfant-adolescent-famille/"
+  to = "/les-professionnelles/psychologues/enfant/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologue-adulte-lyon-8/"
+  to = "/les-professionnelles/psychologues/adultes/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologues-couple-famille/"
+  to = "/les-professionnelles/psychologues/couple/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologues-destination-professionnel/"
+  to = "/les-professionnelles/psychologues/pro/"
+  status = 301
+
+[[redirects]]
+  from = "/psychologues-informations-pratique/"
+  to = "/les-professionnelles/psychologues/info/"
+  status = 301
+
+# Psychomotricienne
+[[redirects]]
+  from = "/psychomotricienne-lyon-monplaisir/"
+  to = "/les-professionnelles/psychomotricienne/psychomotricienne-lyon-monplaisir/"
+  status = 301
+
+[[redirects]]
+  from = "/psychomot-parcours/"
+  to = "/les-professionnelles/psychomotricienne/mon-parcours/"
+  status = 301
+
+[[redirects]]
+  from = "/psychometricienne-2/"
+  to = "/les-professionnelles/psychomotricienne/pour-qui/"
+  status = 301
+
+[[redirects]]
+  from = "/psychomot-accompagnement/"
+  to = "/les-professionnelles/psychomotricienne/accompagnement/"
+  status = 301
+
+[[redirects]]
+  from = "/psychomot-pros-ateliers/"
+  to = "/les-professionnelles/psychomotricienne/pros-ateliers/"
+  status = 301
+
+[[redirects]]
+  from = "/contact-informations-pratiques-honoraires/"
+  to = "/les-professionnelles/psychomotricienne/contact-informations-pratiques-honoraires/"
+  status = 301
+
+# Osteopathe
+[[redirects]]
+  from = "/definition-osteopathie/"
+  to = "/les-professionnelles/osteopathe/osteopathe/"
+  status = 301
+
+[[redirects]]
+  from = "/osteopathe-mon-parcours/"
+  to = "/les-professionnelles/osteopathe/mon-parcours/"
+  status = 301
+
+[[redirects]]
+  from = "/osteopathe-pour-qui/"
+  to = "/les-professionnelles/osteopathe/pour-qui/"
+  status = 301
+
+[[redirects]]
+  from = "/osteopathe-informations-pratiques/"
+  to = "/les-professionnelles/osteopathe/info/"
+  status = 301
+
+# Othophoniste
+[[redirects]]
+  from = "/orthophoniste-lyon-monplaisir/"
+  to = "/les-professionnelles/orthophoniste/orthophoniste-lyon-monplaisir/"
+  status = 301
+
+[[redirects]]
+  from = "/orthophoniste-pour-qui/"
+  to = "/les-professionnelles/orthophoniste/pour-qui/"
+  status = 301
+
+[[redirects]]
+  from = "/orthophoniste-quand-comment-consulter/"
+  to = "/les-professionnelles/orthophoniste/quand-comment-consulter/"
+  status = 301
+
+[[redirects]]
+  from = "/orthophoniste-contact/"
+  to = "/les-professionnelles/orthophoniste/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/actualite/"
+  to = "/actualites/"
+  status = 301

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h3 class="site-contact-title">
+          {{ .Params.heading_1 | safeHTML }}
+        </h3>
+        <br>
+        <h5 class="site-contact-title">
+          {{ .Params.heading_2 | safeHTML }}
+        </h5>
+        <h5 class="site-contact-title">
+          {{ .Params.heading_3 | safeHTML }}
+        </h5>
+        <h5 class="site-contact-title">
+          {{ .Params.heading_4 | safeHTML }}
+        </h5>
+      </div>
+      <div class="col-lg-7">
+        <div id="map" class="map"></div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

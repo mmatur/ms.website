@@ -1,0 +1,44 @@
+.site{
+  &-actualites{
+    @extend .site-pro;
+    padding: 50px 0 0 0;
+    @include mobile{
+      padding: 70px 0;
+    }
+    &.details{
+      padding: 15px 0 15px;
+      @include tablet{
+        padding: 15px 0 15px;
+      }
+    }
+    &.title{
+      padding: 15px 0 15px;
+      text-align: center;
+      @include tablet{
+        padding: 15px 0 15px;
+      }
+    }
+    span {
+      line-height: 1px;
+    }
+    &-header{
+      padding: 150px 0 0;
+      @include mobile{
+        padding: 100px 0 0;
+      }
+      h1{
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-bottom: 20px;
+        @include mobile{
+          font-size: 35px;
+        }
+      }
+      p{
+        line-height: 28px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
