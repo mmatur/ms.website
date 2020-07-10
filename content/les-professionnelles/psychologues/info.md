@@ -12,7 +12,7 @@ Consultations sur RDV uniquement.
 
 <!--more-->
 
-100 € la séance de thérapie de couple ou de famille d’1H30
+110 € la séance de thérapie de couple ou de famille d’1H30
 
 Bilan psychologique : 250 à 300 € selon les objectifs et les outils à employer. Le bilan est composé d’une rencontre d’analyse de la demande, d’une ou de plusieurs séances de 2H de passation des tests et d’une rencontre de restitution du bilan.
 
