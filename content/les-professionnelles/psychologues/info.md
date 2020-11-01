@@ -2,6 +2,7 @@
 title: "Informations pratiques"
 date: 2020-05-13T14:00:00+01:00
 type: blog
+image: "images/professionnelles/psychologues/info-pratiques.jpg"
 ---
 
 Consultations sur RDV uniquement.

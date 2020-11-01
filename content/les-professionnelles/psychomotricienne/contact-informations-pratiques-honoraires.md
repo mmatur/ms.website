@@ -2,6 +2,7 @@
 title: "Informations pratiques"
 date: 2020-05-12T13:00:00+01:00
 type: blog
+image: "images/professionnelles/psychomotricienne/salle.jpg"
 ---
 
 N°de téléphone: 04.82.98.29.15

@@ -2,7 +2,7 @@
 title: "Informations pratiques"
 date: 2020-05-12T16:00:00+01:00
 type: blog
-image: "images/professionnelles/orthophoniste/contact.jpg"
+image: "images/professionnelles/orthophoniste/salle.jpg"
 ---
 
 Si vous souhaitez prendre rendez-vous pour un bilan, vous pouvez me contacter au 04.82.98.29.15. N’hésitez-pas à me laisser vos coordonnées si besoin.

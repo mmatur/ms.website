@@ -2,7 +2,7 @@
 title: "Vous souhaitez consulter un psychologue ?"
 date: 2020-05-13T20:00:00+01:00
 type: blog
-image: "images/professionnelles/psychologues/accueil-psycho.png"
+image: "images/professionnelles/psychologues/home-psy.jpg"
 ---
 
 ### Deux psychologues à votre écoute

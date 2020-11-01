@@ -2,7 +2,7 @@
 title: "Contact"
 date: 2020-05-12T16:00:00+01:00
 type: blog
-image: "images/professionnelles/sage-femme/contact.jpg"
+image: "images/professionnelles/sage-femme/salle.jpg"
 ---
 
 - Consultations sur rendez-vous. Pour le confort des patientes en consultation, je réponds rarement aux appels téléphoniques mais n’hésitez pas à me laisser un message avec vos coordonnées complètes (nom, prénom et numéro de téléphone) et je vous recontacterai au plus vite.
