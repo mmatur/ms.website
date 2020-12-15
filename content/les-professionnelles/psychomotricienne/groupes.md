@@ -1,6 +1,6 @@
 ---
 title: "Un corps à soi - Groupe thérapeutique pour s'appropier ou se réappropier son corps"
-date: 2020-05-13T18:00:00+01:00
+date: 2020-05-12T15:30:00+01:00
 type: blog
 ---
 
